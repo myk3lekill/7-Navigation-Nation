@@ -33,6 +33,17 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
+  transform: translateX(-100vw);
+}
+
+.overlay-slide-right {
+  transition: all 0.4s ease-in-out;
+  transform: translateX(0)
+}
+
+.overlay-slide-left {
+  transition: all 0.8s ease-in-out;
+  transform: translateX(-100vw)
 }
 
 /* Nav Menu Items */
@@ -107,7 +118,6 @@ nav li:nth-of-type(5) {
 
 
 /* --- Menu Bars ------------------------------------ */
-
 .menu-bars {
   position: fixed;
   top: 1rem;
@@ -157,7 +167,7 @@ section {
 }
 
 section#home {
-  background-image: url("");
+  background-image: url("https://images.unsplash.com/photo-1694704606055-9e30c5fea927?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2864&q=80");
   background-size: cover;
   background-position: center center;
 }
